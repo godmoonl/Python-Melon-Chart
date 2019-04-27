@@ -1,3 +1,8 @@
+from urllib.request import urlopen
+from urllib.request import HTTPError
+import urllib.request
+from bs4 import BeautifulSoup
+
 class Melon:
     def __init__(self):
         url = 'http://www.melon.com/chart/index.htm'
